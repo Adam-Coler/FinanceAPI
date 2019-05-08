@@ -51,6 +51,7 @@ def get_hist_adj_close(entry_date, df):
     for tkr in df['ticker']:
         key = tkr + '_' + entry_date
         site = 'https://finance.yahoo.com/quote/' + tkr + '/history'
+        # print(site)
         soup = get_html(site)
         entries = []
         count = 0
@@ -60,6 +61,8 @@ def get_hist_adj_close(entry_date, df):
                 if '2019' in td.text:
                     date = str(datetime.datetime.strptime(td.text.replace('.', ''), "%b %d, %Y")).replace('-', '').split(" ")[0]
                     col1 = td.find_next_sibling('td')
+                    if 'Dividend' in col1.text:
+                        break
                     col2 = col1.find_next_sibling('td')
                     col3 = col2.find_next_sibling('td')
                     col4 = col3.find_next_sibling('td')
