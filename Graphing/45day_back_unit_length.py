@@ -25,13 +25,15 @@ standardized = (df_values - np.mean(df_values, axis=0)) / np.std(df_values, axis
 zero_mean = (df_values - np.mean(df_values, axis=0))
 
 import matplotlib.pyplot as plt
-def make_chart(data, labels):
+def make_chart(data, labels, title):
     for i in range(len(data)):
         plt.plot(data[i], label=tickers[i])
     plt.legend(loc='upper right')
     plt.xlabel('Days Back', fontsize=18)
+    plt.title(title)
     plt.show()
 
-make_chart(standardized, tickers)
-make_chart(normalized, tickers)
+make_chart(standardized, tickers, 'Standardized')
+make_chart(normalized, tickers, 'Normalized')
+make_chart(df_values, tickers, 'Actual Price')
 print('Finished graphing')
