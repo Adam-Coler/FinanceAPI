@@ -22,7 +22,14 @@ normalized = min_max_scaler.fit_transform(df_values)
 
 
 standardized = (df_values - np.mean(df_values, axis=0)) / np.std(df_values, axis=0)
-zero_mean = (df_values - np.mean(df_values, axis=0))
+standardized02 = (df_values - np.mean(df_values)) / np.std(df_values)
+# zero_mean = (df_values - np.mean(df_values, axis=1))
+
+from sklearn.preprocessing import normalize
+normed_matrix = normalize(df_values, axis=1, norm='l2')
+
+from sklearn import preprocessing
+scales_matrix = preprocessing.scale(df_values, axis=1)
 
 import matplotlib.pyplot as plt
 def make_chart(data, labels, title):
@@ -33,7 +40,9 @@ def make_chart(data, labels, title):
     plt.title(title)
     plt.show()
 
+
 make_chart(standardized, tickers, 'Standardized')
-make_chart(normalized, tickers, 'Normalized')
+make_chart(scales_matrix, tickers, 'Scaled')
+make_chart(normed_matrix, tickers, 'Normalized')
 make_chart(df_values, tickers, 'Actual Price')
 print('Finished graphing')
