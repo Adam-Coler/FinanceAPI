@@ -70,6 +70,7 @@ def get_hist_adj_close(entry_date, df):
                     break
     return df
 
+
 if __name__ == '__main__':
     date = '20190508'
     df = pd.DataFrame()

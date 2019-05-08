@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pptbased.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+            <state relative-caret-position="2">
+              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -22,8 +22,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graphing/45day_back_unit_length.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graphing/graph_test.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -42,9 +59,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Graphing/45day_back_unit_length.py" />
         <option value="$PROJECT_DIR$/pptbased.py" />
         <option value="$PROJECT_DIR$/testing.py" />
+        <option value="$PROJECT_DIR$/Graphing/graph_test.py" />
+        <option value="$PROJECT_DIR$/Graphing/45day_back_unit_length.py" />
       </list>
     </option>
   </component>
@@ -66,6 +84,11 @@
             <path>
               <item name="FinanceAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinanceAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinanceAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinanceAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -97,7 +120,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pptbased">
+  <component name="RunManager" selected="Python.45day_back_unit_length">
+    <configuration name="45day_back_unit_length" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FinanceAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphing/45day_back_unit_length.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="FinanceAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.45day_back_unit_length" />
         <item itemvalue="Python.pptbased" />
         <item itemvalue="Python.testing" />
       </list>
@@ -180,16 +223,17 @@
       <updated>1557253893207</updated>
       <workItem from="1557253897173" duration="98000" />
       <workItem from="1557324607557" duration="5251000" />
+      <workItem from="1557330370224" duration="1621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5349000" />
+    <option name="totallyTimeSpent" value="6970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="3" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12440381" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12519872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -205,13 +249,13 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32969603" />
-      <window_info anchor="right" x="0" y="0" width="594" height="1216" id="Documentation" sideWeight="0.50116277" side_tool="true" weight="0.3298887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info active="true" anchor="right" id="SciView" order="4" sideWeight="0.4988372" visible="true" weight="0.3298887" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" x="0" y="0" width="594" height="1216" id="Documentation" order="6" sideWeight="0.50116277" side_tool="true" weight="0.3298887" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,8 +266,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pptbased.py</url>
-          <line>87</line>
+          <line>88</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Graphing/45day_back_unit_length.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -236,9 +285,30 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinanceAPI$testing.coverage" NAME="testing Coverage Results" MODIFIED="1557325826952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinanceAPI$pptbased.coverage" NAME="pptbased Coverage Results" MODIFIED="1557329593327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FinanceAPI$45day_back_unit_length.coverage" NAME="45day_back_unit_length Coverage Results" MODIFIED="1557331676442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphing" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>broadcast_demeaned / broadcast_demeaned.shape[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>df[cols]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list(df.columns)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a = list(df.columns)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>df.set_value('market_cap_M', 'DDD_20190508', 10)</expression-string>
         <language-id>Python</language-id>
@@ -264,31 +334,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>df.at['market_cap_M'][ticker + '_' + date]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>df.at['market_cap_M'][ticker + '_' + date] = 5</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>df['market_cap_M']['LTHM']</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>df['market_cap_M']['LTHM'] = 10</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>df['market_cap_M'][''] = 10</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -302,9 +347,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Unused/AVTest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphing/45day_back_unit_length.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
@@ -323,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pptbased.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        <state relative-caret-position="2">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -333,6 +375,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphing/graph_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphing/45day_back_unit_length.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
