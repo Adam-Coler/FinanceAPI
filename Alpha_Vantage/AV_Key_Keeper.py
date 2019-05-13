@@ -34,19 +34,17 @@ class AV_Wrapper:
 		url = 'https://free-proxy-list.net/'
 		response = requests.get(url)
 		parser = fromstring(response.text)
-		proxies = {}
-		count = 0
+		proxies = []
 		for i in parser.xpath('//tbody/tr')[:50]:
 			if i.xpath('.//td[7][contains(text(),"yes")]'):
 				#Grabbing IP and corresponding PORT
 				proxy = ":".join([i.xpath('.//td[1]/text()')[0], i.xpath('.//td[2]/text()')[0]])
-				proxies[count] = 'http://' + proxy
-				count += 1
+				proxies.append('http://' + proxy)
 		return proxies
 
 	def get_proxy(self):
 		# proxy = {0: self.proxies[random.randint(0, len(self.proxies))]}
-		proxy = {'http': self.proxies.popitem()[1]}
+		proxy = {'http': random.choice (self.proxies)}
 		# print(proxy)
 		return proxy
 
@@ -78,7 +76,8 @@ class AV_Wrapper:
 			self.request(symbol)
 		except requests.exceptions.ConnectionError:
 			print('REQUEST EXCEPTION: Key: ' + key.key + ' Tkr: ' + symbol + ' proxy:' + str(proxy))
-			self.request(symbol)
+			self.proxies.remove(proxy['http'])
+			return self.request(symbol)
 		except:
 			print(sys.exc_info())
 

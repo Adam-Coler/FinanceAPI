@@ -60,7 +60,7 @@ plt.plot(history.history['val_loss'])
 Xt = model.predict(X_test)
 plt.plot(scl.inverse_transform(y_test.reshape(-1,1)))
 plt.plot(scl.inverse_transform(Xt))
-plt.show()
+plt.savefig('fig01')
 
 act = []
 pred = []
@@ -76,4 +76,4 @@ result_df = pd.DataFrame({'pred':list(np.reshape(pred, (-1))),'act':list(np.resh
 Xt = model.predict(X_test)
 plt.plot(scl.inverse_transform(y_test.reshape(-1,1)))
 plt.plot(scl.inverse_transform(Xt))
-plt.show()
+plt.savefig('fig02')
