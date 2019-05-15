@@ -75,7 +75,7 @@ def get_hist_adj_close(entry_date, df):
 
 
 if __name__ == '__main__':
-    date = '20190508'
+    date = '20190514'
     df = pd.DataFrame()
     print('Getting percent loss...')
     df = get_wsj(date, df)
